@@ -1,0 +1,7 @@
+TEEN PREGNANCY SITE
+THE TECHNOLOGIES USED ARE:
+html
+java script
+css
+FUNTIONS OF THE SITE
+This site
