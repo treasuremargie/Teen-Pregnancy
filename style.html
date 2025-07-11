@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <title>Mental Health Support</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <header>
+            <h1>Mental Health Matters</h1>
+            <nav>
+                <ul>
+                    <li><a href="🏠home">Home</a></li>
+                    <li><a href="📝blogs">Blog</a></li>
+                    <li><a href="🏥facilities">Facilities</a></li>
+                    <li><a href="📅appointment">Appontment</a></li>
+                    <li><a href="☎help">Help</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <!--🏠Home Section-->
+            <section id="home">
+                <h2>Welcome</h2>
+                <p>Mental health is just as important as physical health.This platform is here to support ,guide and connect you to resource that can help you thrive emotionally and mentally.</p>
+                </div>
+            </section>
+            <!--📝Blog Section-->
+            <section id="blogs">
+                <h2>Stories & Blogs</h2>
+                <div id="blog-posts">
+                    <!--Blog posts will be shown here-->
+                </div>
+                <h3>Share Your story</h3>
+                <form id="blog-form">
+                    <textarea id="story" placeholder="Write your story here..." required></textarea>
+                    <input type="text" id="name" placeholder="Your name(optional)"/>
+                    <button type="submit">Submit Story</button>
+                </form>
+            </section>
+            <!--🏥 Fcilities Section-->
+            <section id="facilities">
+                <h2>Find Mental Health Facilities</h2>
+                <p>Enter your location to find nearby mental health hospitals:</p>
+                <input type="text" id="location" placeholder="Enter your location..."/>
+                <button onclick="findHospitals()">Search</button>
+                <div id="map">
+                    <!--Google Map will appear here-->
+                </div>
+            </section>
+            <!--📅Appointment Section-->
+            <section id="appointment">
+                <h2>Book an Appointment</h2>
+                <form id="appointment-form">
+                    <input type="text" placeholder="Full Name"required/>
+                    <input type="email" placeholder="Email Address"required/>
+                    <input type="date" required/>
+                    <selection required>
+                        <option value="">Select a Doctor</option>
+                        <option>Dr.Jane Doe(psychologist)</option>
+                        <option>Dr.John Smith(therapist)</option>
+                        <button type="submit">Book Appointment</button>
+                    </selection>
+                </form>
+            </section>
+            <!--☎Help Section-->
+            <section id="help">
+                <h2>Emergency Help lines</h2>
+                <ul>
+                    <li>Kenya Mental Hostline:1199</li>
+                    <li>Befrienders Kenya: +254 722 178 177</li>
+                    <li>Red Cross Emergency Line:1199</li>
+                    <li>Chiromo Mental Health Hostpital:+254 730 870 000</li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <p>&copy;2025 Mental Health Support Platform</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
