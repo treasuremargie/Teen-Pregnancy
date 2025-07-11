@@ -1,29 +1,27 @@
- background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://readdy.ai/api/search-image?query=diverse%20group%20of%20happy%20teenage%20girls%20smiling%20and%20supporting%20each%20other%2C%20soft%20pastel%20background%2C%20warm%20and%20welcoming%20atmosphere%2C%20natural%20lighting%2C%20professional%20photography%2C%20high%20resolution%2C%20positive%20vibes&width=1200&height=600&seq=1&orientation=landscape');
+.hero{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    url('http://readdy.ai/api/search-image?query=diverse%20groups%20of%20happy%20teenage%20girls%20smilling%20and%20supporting%20each%20other%2C%20soft%20pastel%20background%2C%20warm%20and%20welcoming%20atmosphere%2C%20natural%20lighting%2C%20positive%20vibes&width=1200&height=600&seq=1&orientation=landscape');
     background-size: cover;
     background-position: center;
     height: 100vh;
     color: white;
+    
 }
-
-.hero h1 {
+.hero h1{
     font-size: 4rem;
     font-weight: bold;
 }
-
-.resources .card {
+.resources.card{
     transition: transform 0.3s ease;
 }
-
-.resources .card:hover {
+.resources.card:hover{
     transform: translateY(-5px);
 }
-
-.get-help .card {
-    border-left: 4px solid #007bff;
+.get-help.card{
+border-left: 4px solid #768bff;
 }
-
-@media (max-width: 768px) {
-    .hero h1 {
+@media(max-width:768px){
+    .hero h1{
         font-size: 2.5rem;
     }
 }
