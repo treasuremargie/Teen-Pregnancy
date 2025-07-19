@@ -1,5 +1,5 @@
 # TEEN PREGNANCY SITE
-<ing src="./1.png" alt="">
+<img src="./1.png" alt="">
 ## THE TECHNOLOGIES USED ARE:
 * Html
 * Java script
