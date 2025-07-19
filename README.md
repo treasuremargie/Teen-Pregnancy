@@ -1,10 +1,11 @@
 # TEEN PREGNANCY SITE
-<img src="./1.png" alt="">
-## THE TECHNOLOGIES USED ARE:
+<img src="./1.png" alt=""> 
+
+# THE TECHNOLOGIES USED ARE.
 * Html
 * Java script
 * Css
-## FUNCTIONS OF THE SITE
+### FUNCTIONS OF THE SITE
 This site is to help and encourege young moms .
 On the website teen moms get to see stories shared by other teen moms which will encourage them and let them know there not alone.
 Teen Mom Support website also allows teens to learn by providing them  with study marterials,Online courses and school programs to enable to learn like there peers.
