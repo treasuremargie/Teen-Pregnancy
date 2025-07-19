@@ -5,6 +5,8 @@
 * Html
 * Java script
 * Css
+* Booststrap
+* AI for image generation
 ### FUNCTIONS OF THE SITE
 This site is to help and encourege young moms .
 On the website teen moms get to see stories shared by other teen moms which will encourage them and let them know there not alone.
